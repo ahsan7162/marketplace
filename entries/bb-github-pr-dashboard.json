@@ -1,0 +1,33 @@
+{
+  "id": "bb-github-pr-dashboard",
+  "displayName": "GitHub PR Dashboard",
+  "description": "See why each of your open pull requests is not merged yet: failing CI, unresolved review comments, requested changes or conflicts. Your open, merged and closed pull requests sit in one My PRs tab, grouped by repository. Open a pull request to see each failing job by pipeline with its error messages and a link to its logs. Its review threads show who asked, every reply, and which ones wait on your reply. Uses the GitHub CLI login on the machine running bb, or a personal access token you add in the plugin settings; github.com only.",
+  "icon": "GitPullRequest",
+  "tags": [
+    "github",
+    "pull-requests",
+    "ci",
+    "checks",
+    "code-review",
+    "review-comments",
+    "gh-cli"
+  ],
+  "author": {
+    "name": "Muhammad Ahsan",
+    "github": "ahsan7162",
+    "url": "https://github.com/ahsan7162"
+  },
+  "category": "code-and-reviews",
+  "screenshots": [
+    "./screenshots/bb-github-pr-dashboard/list.jpg",
+    "./screenshots/bb-github-pr-dashboard/checks.jpg",
+    "./screenshots/bb-github-pr-dashboard/comments.jpg"
+  ],
+  "overview": "./overview/bb-github-pr-dashboard.md",
+  "source": {
+    "git": {
+      "url": "https://github.com/ahsan7162/bb-github-pr-dashboard.git",
+      "range": "^0.1.0"
+    }
+  }
+}
